@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculate</title>
+<style type="text/css">
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffcccc;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin:30px 20px;
+        width: 300px; /* Adjust width as needed */
+    }
+
+    form input[type="text"],
+    form input[type="submit"],
+    form select {
+        padding: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+    form input[type="text"]:focus,
+    form input[type="submit"]:focus,
+    form select:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+    form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    form h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form select {
+        height: 40px;
+    }
+
+    form .error {
+        color: red;
+        font-style: italic;
+        margin-top: 5px;
+    }
+
+    /* Styling for specific forms */
+    form[action="fact"] {
+        background-color: #f9f9f9;
+    }
+
+    /* Additional styling for specific form elements */
+    form[action="add"] input[type="text"],
+    form[action="fact"] input[type="text"] {
+        border-color: #888888;
+    }
+
+    form[action="add"] input[type="submit"],
+    form[action="fact"] input[type="submit"] {
+        background-color: #1e88e5;
+        color: #ffffff;
+    }
+
+</style>
+</head>
+<body>
+    <form action="add" method="get">
+        Enter First Num: <input type="text" name="num1"> Enter Second
+        Num: <input type="text" name="num2"> 
+        Choose Operator: 
+        <select name="opt">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">x</option>
+            <option value="div">/</option>
+        </select>
+        <input type="submit" value="Get Result">
+    </form>
+    
+    <form action="add" method="post">
+        Enter Num: <input type="text" name="num"> <input type="submit"
+            value="Get Result">
+    </form>
+</body>
+</html>

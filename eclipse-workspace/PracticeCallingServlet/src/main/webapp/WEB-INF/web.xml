@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+<!--  	<servlet>
+		<servlet-name>First</servlet-name>
+		<servlet-class>com.practice.ServletOne</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>First</servlet-name>
+		<url-pattern>/addNum</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Second</servlet-name>
+		<servlet-class>com.practice.ServletTwo</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Second</servlet-name>
+		<url-pattern>/square</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Third</servlet-name>
+		<servlet-class>com.practice.UsingSessionURL</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Third</servlet-name>
+		<url-pattern>/multiply</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Fourth</servlet-name>
+		<servlet-class>com.practice.UsingSessionURL2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Fourth</servlet-name>
+		<url-pattern>/cube</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Fifth</servlet-name>
+		<servlet-class>com.practice.UsingCookies</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Fifth</servlet-name>
+		<url-pattern>/numbers</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Sixth</servlet-name>
+		<servlet-class>com.practice.UsingCookies1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Sixth</servlet-name>
+		<url-pattern>/double</url-pattern>
+	</servlet-mapping> -->
+	
+</web-app>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    
+    form {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    input[type="text"], input[type="submit"] {
+        padding: 8px;
+        margin: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+    <form action="addNum" method="get">
+        Enter num: <input type="text" name="num1"> 
+        Enter num: <input type="text" name="num2"> <input type="submit" value="Get Answer..">
+    </form>
+    <form action="multiply" method="get">
+        Enter num: <input type="text" name="num">
+        Enter num: <input type="text" name="num1"> <input type="submit" value="Get Answer..">
+    </form>
+    <form action="numbers" method="get">
+        Enter num: <input type="text" name="numA">
+        Enter num: <input type="text" name="numB"> <input type="submit" value="Get Answer..">
+    </form>
+</body>
+</html>
